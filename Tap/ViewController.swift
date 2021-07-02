@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         } else if recognizer.state == .changed{
             counter += 1
             counterNub.text = "\(counter)"
+            
 //        } else if recognizer.state == .ended { 如果要在結束時加動作才需要加入
         }
     }
